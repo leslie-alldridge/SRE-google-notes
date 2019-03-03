@@ -58,3 +58,43 @@ Protocol buffers have many advantages over XML for serializing structured data. 
 ### Chapter 3
 
 SRE seeks to balance the risk of unavailability with the goals of rapid innovation and efficient service operations, so that users' overall happiness - with features, service and performance - is optimized. 
+
+Cost dimensions 
+- The cost of redundant machine / compute resources: redundant equipment cost
+- The opportunity cost: allocating resources to build systems that diminish risk
+
+We strive to make a service reliable enough, but not more than it needs to be.
+
+Risk is based on unplanned downtime.
+
+Time based availability equation 
+Availability = uptime / (uptime + downtime)
+
+Request based availability equation
+Availability = successful requests / total requests
+
+Factors to consider for risk tolerance
+1. What level of availability is required
+2. Do different types of failures have different effects on the service
+3. How can we use the service cost to help locate a service on the risk continuum
+4. What other service metrics are important to take into account
+
+Factors to consider for target availability 
+1. What level of service will the users expect
+2. Does this service tie directly to revenue (or the users' revenue)
+3. Is this a free or paid service
+4. Competitors availability metrics
+5. Is this service targeted at consumers or at enterprises
+
+Typical Tensions between Developers and SRE
+* Software Fault Tolerance
+- How hardened do we make the software to unexpected events? Too little = brittle and unstable. Too hardened = no one wants to use it
+- Testing. Too little = outages, data leaks, press worthy events. Too much = could lose your market
+- Push Frequency. How much should we work on reducing that risk, versus doing other work?
+- Canary duration and size: Test a release on small subset of typical workload. How long do we wait and how big is the canary?
+
+Product Management defines an SLO which sets the expectation of uptime. As long as current uptime is above SLO, new releases can be pushed.
+
+Error budget provides a common incentive for both product and SRE to find the right balance between innovation and reliability. 
+
+### Chapter 4
