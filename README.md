@@ -120,3 +120,26 @@ All systems - correctness
 
 User studies have shown that people typically prefer a slightly slower system to one that has a high variance in repsonse times.
 
+We generally prefer to focus on percentiles rather than average values. This makes it possible to consider long tail of data points which have significantly different (more interesting) characteristics than the average.
+
+Standardize indicators and build templates for them. Measure what your users care about, not what is easy to measure. 
+
+Track SLOs on a daily or weekly basis to identify trends 
+
+Choosing SLO targets
+- Don't pick a target based on current performance
+- Keep it simple
+- Avoid absolutes
+- Have as few SLOs as possible
+- Perfection can wait
+
+SLOs can - and should - be a major driver in prioritizing work for SREs and product developers, because they reflect what users care about. 
+
+Control Measures
+1. Monitor and measure the system's SLIs
+2. Compare the SLIs and SLOs and decide whether or not action is needed
+3. If action is needed, figure out what needs to happen in order to meet the target
+4. Take that action
+
+### Chapter 5
+
