@@ -143,3 +143,13 @@ Control Measures
 
 ### Chapter 5
 
+If a human operator needs to touch your system during normal operations, you have a bug. 
+
+Toil = operational work, admin work or grungy work. 
+
+Admin chores are not always toil, sometimes they're overhead. Team meetings, goals, HR work, etc.
+
+Toil elements = Manual, repetitive, automatable, tactical, no enduring value, scales with service growth. 
+
+Typical SRE activities 
+1. Software engineering - writing or modifying code. 
