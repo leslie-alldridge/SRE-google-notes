@@ -41,3 +41,20 @@ Most outages are in production so we should implement progressive rollouts, quic
 Provising the right resources and checking for slowness. A slow or inefficient app equates to a loss of capacity.
 
 ### Chapter 2
+
+Tens of machines are placed in a rack
+Racks stand in a row
+One or more rows form a cluster
+Usually a datacenter building houses multiple clusters
+Multiple datacenter buildings that are located close together form a campus
+
+Monitoring can be used to: 
+Set up alerting for acute problems
+Compare behaviour - did the latest update improve performance
+Examine how resource consumption evolves over time, capacity planning
+
+Protocol buffers have many advantages over XML for serializing structured data. They're simpler to use, 3-10 times smaller and 20-100 times faster and less ambiguous
+
+### Chapter 3
+
+SRE seeks to balance the risk of unavailability with the goals of rapid innovation and efficient service operations, so that users' overall happiness - with features, service and performance - is optimized. 
