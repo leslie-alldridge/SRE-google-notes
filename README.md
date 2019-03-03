@@ -98,3 +98,25 @@ Product Management defines an SLO which sets the expectation of uptime. As long 
 Error budget provides a common incentive for both product and SRE to find the right balance between innovation and reliability. 
 
 ### Chapter 4
+
+SLI - Service level indicators
+- A carefully defined quantitative measure of some aspect of the level of service that is provided. 
+- Latency, Error rate (of requests), System throughput (requests per second)
+SLO - Service level objectives
+- Target or value or range of values for a service level that is measured by an SLI. 
+SLA - Service level agreement
+- Explicit or implicit contract with your users that includes consquences of meeting (or missing) the SLOs they contain. Explicit consquences unlike SLO's
+
+Yeild = well formed requests that succeed. 
+
+Indicators 
+- Too many makes it hard to pay the right level of attention to each indicator
+- Too few and you might have large parts of the system un-examined. 
+
+User facing systems - availability, latency and throughput
+Storage systems - durability, latency, availability
+Big data systems - Throughput, end to end latency
+All systems - correctness 
+
+User studies have shown that people typically prefer a slightly slower system to one that has a high variance in repsonse times.
+
