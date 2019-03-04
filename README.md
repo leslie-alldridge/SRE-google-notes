@@ -152,4 +152,9 @@ Admin chores are not always toil, sometimes they're overhead. Team meetings, goa
 Toil elements = Manual, repetitive, automatable, tactical, no enduring value, scales with service growth. 
 
 Typical SRE activities 
-1. Software engineering - writing or modifying code. 
+1. Software engineering - writing or modifying code. Adding service features for scalability and reliability
+2. Systems engineering - Configuring production systems, documenting systems, load balancers, architecture, etc
+3. Toil - Work directly tied to running a service that is repetitive, manual, etc
+4. Overhead - Admin work not tied to running a service directly. Hiring, paperwork, HR, admin, etc
+
+Aim is to invent more and toil less. 
