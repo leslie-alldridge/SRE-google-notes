@@ -211,3 +211,22 @@ Pages should be an event we haven't seen before, require intelligence, actionabl
 A healthy monitoring and alerting pipeline is simple and easy to reason about and support long term plans.
 
 ### Chapter 7
+
+If automation runs regularly and successfully enough, the result is a reduced mean time to repair for those comon faults. 
+
+The later in a product lifecycle a problem is discovered, the more expensive it is to fix. 
+
+If we aren't creating processes and solutions that can be automated, we continue having to staff resources to maintain those solutions.
+
+Automation is meta-software, software to act on software.
+
+Examples of where automation can be used: User account creation, cluster turn up and turn down, software or hardware preparation and decommissioning, config changes, and many more.
+
+Automation processes can vary in three respects
+1. Competence (their accuracy)
+2. Latency (how quickly all steps are executed)
+3. Relevance, or proportion of real-world process covered by automation. 
+
+Automation provides more than just time savings
+
+Standard good practices in software engineering will help considerably: having decoupled subsystems, introducing APIs, minimizing side effects, and so on. 
