@@ -209,3 +209,5 @@ Monitoring principles
 Pages should be an event we haven't seen before, require intelligence, actionable and able to be responded to urgently. 
 
 A healthy monitoring and alerting pipeline is simple and easy to reason about and support long term plans.
+
+### Chapter 7
