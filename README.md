@@ -191,3 +191,21 @@ The Four Golden Signals
 2. Traffic - A measure of how much demand is being placed on your system
 3. Errors - The rate of requests that fail 
 4. Saturation - How full your service is or is going to be
+
+Take care in how the measurements are structured. Collecting CPU logs every second is expensive to collect, store and analyze. 
+
+Guidelines to keep in mind 
+1/ The rules that catch real incidents most often should be simple, predictable and reliable. 
+2/ Data collection that is rarely used should be up for removal
+3/ Signals that are collected but not displayed anywhere should be up for removal
+
+Monitoring principles 
+* Does this rule detect an otherwise undetected condition that is urgent, actionable, and actively or imminently user-visible?
+* Will I ever be able to ignore this alert, and how can I avoid this scenario
+* Does the alert definitely indicate users are being negatively affected
+* Can I take action in response to this alert, is it a long/short term fix
+* Are other people getting paged for this issue, rendering a page unnecessary
+
+Pages should be an event we haven't seen before, require intelligence, actionable and able to be responded to urgently. 
+
+A healthy monitoring and alerting pipeline is simple and easy to reason about and support long term plans.
