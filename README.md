@@ -158,3 +158,36 @@ Typical SRE activities
 4. Overhead - Admin work not tied to running a service directly. Hiring, paperwork, HR, admin, etc
 
 Aim is to invent more and toil less. 
+
+### Chapter 6
+
+Monitoring - Collecting, processing, aggregating, and displaying real-time quantitative data about a system, such as query counts and types, error counts and types, processing times and server lifetimes. 
+
+White-box monitoring - metrics based on exposed internals of the system
+
+Black-box monitoring - testing external behaviour as a user would see it
+
+Dashboard - Summary view of a service's core metrics. 
+
+Alert - Notification intended to be read by a human and pushed to a system (queue)
+
+Root cause - A defect in a software or human system that, if repaired, instills confidence that this event won't happen again in the same way.
+
+Node and machine - single instance of running kernel (virtual machine, container, physical server)
+
+Push - Any change to a service's running software or its configuration
+
+Why Monitor? 
+* Analyzing long-term trends 
+* Comparing over time or experiment groups
+* Alerting 
+* Building Dashboards 
+* Conducting ad hoc retrospective analysis (debugging)
+
+Your monitoring system should address two questions: what's broken, and why?
+
+The Four Golden Signals
+1. Latency - the time it takes to service a request
+2. Traffic - A measure of how much demand is being placed on your system
+3. Errors - The rate of requests that fail 
+4. Saturation - How full your service is or is going to be
