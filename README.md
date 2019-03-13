@@ -248,3 +248,11 @@ SRE teams should:
 Removing dead code is better than commenting it out or flagging it as no good
 
 Software simplicity is a prerequisite to reliability.
+
+### Chapter 10
+
+Monitoring is a very large system due to:
+- the sheer number of components being analyzed
+- the need to maintain a reasonbly low maintenance burden on the engineers responsbile for the system
+
+...page 118
