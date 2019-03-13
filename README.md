@@ -238,3 +238,13 @@ SREs focus on deployable code with a reliable release process. Release managemen
 It's best to invest in a solid release pipeline at the outset as it's more expensive to tack it on as an afterthought. 
 
 ### Chapter 9
+
+At the end of the day, our job is to keep agility and stability in balance in the system.
+
+SRE teams should:
+- Push back when accidental complexity is introduced into systems they're responsible for
+- Constantly strive to eliminate complexity in systems they assume operational responsibility for
+
+Removing dead code is better than commenting it out or flagging it as no good
+
+Software simplicity is a prerequisite to reliability.
