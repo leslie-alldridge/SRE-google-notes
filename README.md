@@ -230,3 +230,11 @@ Automation processes can vary in three respects
 Automation provides more than just time savings
 
 Standard good practices in software engineering will help considerably: having decoupled subsystems, introducing APIs, minimizing side effects, and so on. 
+
+### Chapter 8
+
+SREs focus on deployable code with a reliable release process. Release management covers release velocity, consistent and repeatable builds, product team self service and enforcement of policies and procedures.
+
+It's best to invest in a solid release pipeline at the outset as it's more expensive to tack it on as an afterthought. 
+
+### Chapter 9
