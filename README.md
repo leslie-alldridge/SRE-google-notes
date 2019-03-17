@@ -300,3 +300,9 @@ Consider the obvious first - it's better to ping an application before diving in
 
 Often we can only find probable (not actual) cause because systems are complex and reproducing in a live production system may not be an option. Having a non production environment is helpful for this reason, but costly to run. 
 
+The most fundamental ways to enhance troubleshooting are:
+- Building observability: White box metrics and structured logs in every component
+- Designing systems with well-understood and observable interfaces
+
+Following a solid plan for troubleshooting problems will remove luck from the equation. 
+
