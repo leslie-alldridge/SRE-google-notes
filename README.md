@@ -280,3 +280,23 @@ Alerts to event ratio should be 1:1 to allow engineers time to focus on the prob
 
 In some cases SRE will give the pager back to the Product Team - until it reaches a state where SRE can look after it. 
 
+### Chapter 12 
+
+Troubleshooting process: 
+- Triage (Problem reported)
+- Examine
+- Diagnose
+- Test / Treat (Cure)
+
+Assessing an issues severity requires an exercise of good engineering judgement and, often, a degree of calm under pressure. 
+
+First course of action should be to make the system as well as it can under the circumstances. E.g. diverting traffic, spinning up new instances, etc.
+
+Examine - using timeseries data and metrics. Logs are also helpful. 
+
+Diagnose - send test data to applications, work your way through the stack, ask "what, where, why". "What touched it last, what changed recently". 
+
+Consider the obvious first - it's better to ping an application before diving into its code base. 
+
+Often we can only find probable (not actual) cause because systems are complex and reproducing in a live production system may not be an option. Having a non production environment is helpful for this reason, but costly to run. 
+
