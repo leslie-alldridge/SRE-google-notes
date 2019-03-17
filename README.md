@@ -258,3 +258,25 @@ Monitoring is a very large system due to:
 White box monitoring does not provide a full picture of the system being monitored; you aren't aware of what users are seeing.
 
 Treating time-series data as a data source for generating alerts. 
+
+### Chapter 11
+
+When on-call the engineer is available to perform operations on production systems within minutes. The engineer is expected to triage the problem and work toward its resolution, involving others and escalating if necessary. 
+
+Most teams will have a primary and secondary on call engineer. 
+
+Multi-site teams are best to avoid night shifts being a requirement. 
+
+When dealing with outages related to complex systems, being rational, focused and deliberate is best. 
+
+Most important on-call resources are: 
+- Clear escalation paths
+- Well-defined incident-management procedures
+- A blameless postmortem culture
+
+Escalating when a serious outage has significant unknown dimensions
+
+Alerts to event ratio should be 1:1 to allow engineers time to focus on the problem instead of triaging alerts.
+
+In some cases SRE will give the pager back to the Product Team - until it reaches a state where SRE can look after it. 
+
