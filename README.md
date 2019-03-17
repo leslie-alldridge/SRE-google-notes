@@ -255,4 +255,6 @@ Monitoring is a very large system due to:
 - the sheer number of components being analyzed
 - the need to maintain a reasonbly low maintenance burden on the engineers responsbile for the system
 
-...page 118
+White box monitoring does not provide a full picture of the system being monitored; you aren't aware of what users are seeing.
+
+Treating time-series data as a data source for generating alerts. 
