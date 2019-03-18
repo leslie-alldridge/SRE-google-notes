@@ -308,3 +308,14 @@ Following a solid plan for troubleshooting problems will remove luck from the eq
 
 ### Chapter 13
 
+All problems have solutions
+
+Learn from the past, don't repeat it
+
+Have a well documented post mortem and follow through to ensure the action points are completed.
+
+Once you have a solid track of learnings from past outages, see if this can be utilised to prevent future outages from occurring. 
+
+Encourage proactive testing 
+
+While the cases were across many types of outages, the SRE team still kept calm, responded appropriately, fixed the root cause and documented the experience. 
